@@ -1,5 +1,6 @@
 import { auth } from "../firebase";
 import { useRouter } from "next/router";
+import { signOut } from "firebase/auth";
 
 
 export default function Home() {
